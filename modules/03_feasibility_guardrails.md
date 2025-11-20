@@ -1,3 +1,6 @@
+Change Log (2025-11-20):
+- Updated Over-Budget Meal rule to list breakfast/lunch/dinner prices and add premium lunch/dinner options.
+
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
 
 1. **Closed Venue**
@@ -6,7 +9,8 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 
 2. **Over-Budget Meal**
    
-   - If meal cost > user’s budget → switch to a cheaper restaurant of similar cuisine.
+   - If meal cost > user’s budget → list estimated prices for breakfast, lunch, and dinner,  then switch to a cheaper restaurant of similar cuisine.
+   - Provide one premium option (higher price, better quality) optional.
 
 3. **Too Far or Long Travel**
    
